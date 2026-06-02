@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玉田压痕模 - 专业生产商</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 语言选择 -->
+    <div class="language-selector">
+        <select id="languageSelect" onchange="changeLanguage(this.value)">
+            <option value="zh">中文</option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+            <option value="ru">Русский</option>
+            <option value="ar">العربية</option>
+            <option value="pt">Português</option>
+            <option value="it">Italiano</option>
+            <option value="vi">Tiếng Việt</option>
+        </select>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1 data-i18n="company_name">玉田压痕模</h1>
+                <p data-i18n="tagline">专业生产商</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-i18n="nav_home">首页</a></li>
+                <li><a href="#products" data-i18n="nav_products">产品介绍</a></li>
+                <li><a href="#company" data-i18n="nav_company">公司介绍</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首页英雄区 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 data-i18n="hero_title">高精度压痕模解决方案</h2>
+            <p data-i18n="hero_subtitle">专注质量，成就未来 | 20年专业经验</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" data-i18n="btn_contact">联系我们</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})" data-i18n="btn_learn">了解产品</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="placeholder-image" data-i18n="img_placeholder">产品展示区</div>
+        </div>
+    </section>
+
+    <!-- 产品介绍 -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 data-i18n="products_title">产品系列</h2>
+            <p data-i18n="products_subtitle">为不同行业提供定制化解决方案</p>
+            
+            <div class="product-grid">
+                <!-- 产品1 -->
+                <div class="product-card">
+                    <div class="product-icon">📦</div>
+                    <h3 data-i18n="product1_name">标准压痕模</h3>
+                    <p data-i18n="product1_desc">适用于包装盒、纸箱等标准尺寸产品，精度高达±0.1mm</p>
+                    <ul class="features" data-i18n="product1_features">
+                        <li>✓ 高精度加工</li>
+                        <li>✓ 长寿命设计</li>
+                        <li>✓ 快速交付</li>
+                    </ul>
+                </div>
+
+                <!-- 产品2 -->
+                <div class="product-card">
+                    <div class="product-icon">🎨</div>
+                    <h3 data-i18n="product2_name">定制压痕模</h3>
+                    <p data-i18n="product2_desc">根据客户需求设计，支持各种复杂图案和尺寸</p>
+                    <ul class="features" data-i18n="product2_features">
+                        <li>✓ 个性化设计</li>
+                        <li>✓ 灵活定制</li>
+                        <li>✓ 专业团队</li>
+                    </ul>
+                </div>
+
+                <!-- 产品3 -->
+                <div class="product-card">
+                    <div class="product-icon">⚡</div>
+                    <h3 data-i18n="product3_name">高速压痕模</h3>
+                    <p data-i18n="product3_desc">为高产量生产设计，耐久性强，生产效率提升30%</p>
+                    <ul class="features" data-i18n="product3_features">
+                        <li>✓ 高效率</li>
+                        <li>✓ 耐磨损</li>
+                        <li>✓ 低成本</li>
+                    </ul>
+                </div>
+
+                <!-- 产品4 -->
+                <div class="product-card">
+                    <div class="product-icon">🌿</div>
+                    <h3 data-i18n="product4_name">环保型压痕模</h3>
+                    <p data-i18n="product4_desc">采用环保材料，符合国际环保标准</p>
+                    <ul class="features" data-i18n="product4_features">
+                        <li>✓ 环保材料</li>
+                        <li>✓ 可回收</li>
+                        <li>✓ 安全无污染</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 产品特点 -->
+            <div class="product-features">
+                <h3 data-i18n="product_features_title">核心优势</h3>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h4>🎯 精度保证</h4>
+                        <p data-i18n="feature1">±0.05mm超高精度，确保产品质量</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🔧 技术领先</h4>
+                        <p data-i18n="feature2">引进日本和德国先进设备，工艺领先行业</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>📈 经验丰富</h4>
+                        <p data-i18n="feature3">20年行业经验，服务5000+客户</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🚀 快速交付</h4>
+                        <p data-i18n="feature4">标准产品3-5天交付，加急可当日发货</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>💼 专业团队</h4>
+                        <p data-i18n="feature5">拥有高级工程师和技术员50+人</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>🌍 国际认证</h4>
+                        <p data-i18n="feature6">ISO9001认证，产品远销30个国家</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 公司介绍 -->
+    <section id="company" class="company">
+        <div class="container">
+            <h2 data-i18n="company_title">公司介绍</h2>
+            
+            <div class="company-content">
+                <div class="company-info">
+                    <h3 data-i18n="company_about_title">关于玉田压痕模</h3>
+                    <p data-i18n="company_about_text1">玉田压痕模有限公司成立于2004年，是一家专业从事压痕模设计、制造和销售的高新技术企业。公司位于河北省唐山市玉田县，地理位置优越，交通便利。</p>
+                    <p data-i18n="company_about_text2">公司拥有现代化的生产设备和完善的质量管理体系，采用国际先进的CAD/CAM设计和加工技术，能够为客户提供高精度、高质量的压痕模产品和专业的技术服务。</p>
+                </div>
+
+                <div class="company-stats">
+                    <div class="stat-item">
+                        <h4>20+</h4>
+                        <p data-i18n="stat_years">年行业经验</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>5000+</h4>
+                        <p data-i18n="stat_customers">服务客户</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>50+</h4>
+                        <p data-i18n="stat_staff">专业团队</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>30</h4>
+                        <p data-i18n="stat_countries">个国家出口</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 发展历程 -->
+            <div class="company-timeline">
+                <h3 data-i18n="company_history_title">发展历程</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2004</div>
+                        <p data-i18n="timeline1">公司成立，开始研发压痕模产品</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2008</div>
+                        <p data-i18n="timeline2">通过ISO9001认证，产品质量国际认可</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2012</div>
+                        <p data-i18n="timeline3">引进日本先进设备，技术水平大幅提升</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2016</div>
+                        <p data-i18n="timeline4">开拓国际市场，产品销售至欧洲和亚洲</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020</div>
+                        <p data-i18n="timeline5">成立研发中心，推出新一代环保型压痕模</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024</div>
+                        <p data-i18n="timeline6">技术创新，精度达到±0.05mm业界领先</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 资质认证 -->
+            <div class="company-certifications">
+                <h3 data-i18n="company_certifications_title">资质认证</h3>
+                <div class="certifications-grid">
+                    <div class="cert-item">
+                        <p>✓ ISO 9001:2015</p>
+                        <span>质量管理体系认证</span>
+                    </div>
+                    <div class="cert-item">
+                        <p>✓ ISO 14001:2015</p>
+                        <span>环境管理体系认证</span>
+                    </div>
+                    <div class="cert-item">
+                        <p>✓ CE认证</p>
+                        <span>欧盟安全认证</span>
+                    </div>
+                    <div class="cert-item">
+                        <p>✓ 高新技术企业</p>
+                        <span>国家认定证书</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 应用行业 -->
+    <section class="industries">
+        <div class="container">
+            <h2 data-i18n="industries_title">应用行业</h2>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <h4>📦 包装印刷</h4>
+                    <p data-i18n="industry1">纸箱、纸板压痕</p>
+                </div>
+                <div class="industry-card">
+                    <h4>🏭 纸制品</h4>
+                    <p data-i18n="industry2">信封、贺卡压痕</p>
+                </div>
+                <div class="industry-card">
+                    <h4>🎨 标签制作</h4>
+                    <p data-i18n="industry3">不干胶标签压痕</p>
+                </div>
+                <div class="industry-card">
+                    <h4>💳 证卡制作</h4>
+                    <p data-i18n="industry4">会员卡、ID卡</p>
+                </div>
+                <div class="industry-card">
+                    <h4>🎁 礼品包装</h4>
+                    <p data-i18n="industry5">高端礼盒压痕</p>
+                </div>
+                <div class="industry-card">
+                    <h4>📚 出版印刷</h4>
+                    <p data-i18n="industry6">书籍装帧压痕</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-i18n="contact_title">联系我们</h2>
+            <p data-i18n="contact_subtitle">欢迎与我们沟通，获取专业的产品解决方案</p>
+
+            <div class="contact-grid">
+                <!-- 联系方式 -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>📱 电话</h4>
+                        <a href="https://wa.me/8619955287017" target="_blank" class="contact-link">
+                            +86 199 5528 7017
+                        </a>
+                        <p data-i18n="contact_whatsapp">点击直接WhatsApp联系</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4>📧 邮箱</h4>
+                        <a href="mailto:suan147@qq.com" class="contact-link">
+                            suan147@qq.com
+                        </a>
+                        <p data-i18n="contact_email">发送邮件咨询</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4>🏢 地址</h4>
+                        <p>河北省唐山市玉田县</p>
+                        <p data-i18n="contact_address">中国</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4>⏰ 工作时间</h4>
+                        <p data-i18n="contact_hours">周一至周五 8:00-17:30</p>
+                        <p data-i18n="contact_weekend">周六日 10:00-16:00</p>
+                    </div>
+                </div>
+
+                <!-- 快速咨询表单 -->
+                <div class="contact-form">
+                    <h3 data-i18n="form_title">快速咨询</h3>
+                    <form id="contactForm">
+                        <input type="text" id="name" placeholder="请输入您的名字" data-i18n-placeholder="form_name" required>
+                        <input type="email" id="email" placeholder="请输入您的邮箱" data-i18n-placeholder="form_email" required>
+                        <input type="tel" id="phone" placeholder="请输入您的电话" data-i18n-placeholder="form_phone" required>
+                        <textarea id="message" placeholder="请输入您的咨询内容" data-i18n-placeholder="form_message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary" data-i18n="form_submit">提交咨询</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer_text">&copy; 2024 玉田压痕模有限公司. 版权所有。</p>
+            <p data-i18n="footer_contact">联系: +86 199 5528 7017 | suan147@qq.com</p>
+            <p data-i18n="footer_address">河北省唐山市玉田县</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
